@@ -21,6 +21,9 @@ app.get('/data', (req, res) => {
         email:"trq@gmail.com"
      });
 });
+app.get('/new', (req, res) => {
+  res.send('<h1>This is new</h1>');
+}); 
 
 
 app.listen(port, () => {
